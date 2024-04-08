@@ -1,0 +1,66 @@
+body{
+  padding: 0;
+  background-color: rgb(127, 104, 231);
+}
+
+.container{
+  background-color: rgb(87, 61, 61);
+  width: 300px;
+  height: 600px;
+  margin: auto;
+  align-content: center;
+  border-radius: 40px;
+  box-shadow: 5px 5px 6px rgb(255, 153, 0);
+}
+
+.container h2{
+  padding-bottom: 10%;
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.container h3{
+  color: aliceblue;
+  font-style: italic;
+  font-size: 20px;
+  text-shadow: 3px -1px 4px rgb(224, 228, 30);
+
+}
+
+.container p{
+  color: aliceblue;
+  font-size: 20px;
+  font-style: italic;
+  font-family: sans-serif;
+  padding-left: 10px;
+  text-decoration: solid;
+  text-shadow: 3px -1px 2px red;
+}
+
+.container label{
+  
+  padding-left: 2px;
+  display: flex;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: rgb(139, 190, 235);
+  text-shadow: 3px -1px 1px red;
+}
+
+.container input{
+  padding: 4px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.container a{
+  text-shadow: none;
+  text-decoration: none;
+  color: blue;
+}
